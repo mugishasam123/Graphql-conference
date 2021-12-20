@@ -19,6 +19,62 @@ body{
        
         width:100%;
     }
+    .fa:hover{
+        color:blue;
+        cursor:pointer;
+    }
+    .past_summit:hover{
+        border:solid white;
+        cursor:pointer; 
+    }
+    .footer_logo:hover{
+ cursor:pointer;
+    }
+    .program:hover{
+        border:solid white;
+        cursor:pointer;
+    }
+    .nav_links>.about:hover{
+        color:blue;
+    }
+    .logo_section{
+       
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        padding:40px;
+        gap:10px;
+        
+    }
+    .logo_title{
+        font-weight:700;
+    }
+    .logo_description{
+        font-size:18px;
+        color:grey;
+    }
+    .logo_line{
+   width:30px;
+   height:2px;
+   background-color:red;
+    }
+    .past_summit{
+        width:900px;
+        height:400px;
+        
+    }
+    .past_summits{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        padding:40px;
+        gap:30px;
+    }
+    .logo_box{
+       border:solid grey;
+       padding:40px;
+       width:50%;
+    }
 .socialmedia{
 height:40px;
 display:flex;
@@ -130,6 +186,29 @@ padding:100px;
     color:grey;
     font-size:19px;
 }
+.about_help{
+    font-family: 'Poppins', sans-serif;
+    font-weight:600;
+    color:grey;
+    font-size:19px;
+    margin-top:70px;
+    margin-left:300px;
+}
+.email{
+    font-family: 'Poppins', sans-serif;
+    font-weight:600;
+    color:grey;
+    font-size:19px;
+    margin-left:490px;
+    font-weight:700;
+}
+.email_line{
+    width:21%;
+    background-color:white;
+   
+    height:1px;
+    margin-left:490px;
+}
 .main_program{
     
     display:flex;
@@ -205,6 +284,7 @@ padding:100px;
     display:grid;
     grid-template-columns:1fr 1fr;
    
+    
 }
 .speaker{
     display:flex;
@@ -276,11 +356,158 @@ padding:30px;
     background-color:red;
     margin-left:92px;
 }
-
+.mobile_menu{
+    display:none;
+}
+.sponso:hover{
+    cursor:pointer;
+}
 
 }
 
 @media(max-width:768px){
+    .sponso:hover{
+        cursor:pointer;
+    }
+    .past_summit:hover{
+        border:solid white;
+        cursor:pointer; 
+    }
+    .footer_logo:hover{
+ cursor:pointer;
+    }
+    .program:hover{
+        border:solid white;
+        cursor:pointer;
+    }
+    .nav_links>.about:hover{
+        color:blue;
+    }
+    .logo_section{
+       
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        padding:40px;
+        gap:10px;
+        
+    }
+    .logo_title{
+        font-weight:700;
+    }
+    .logo_description{
+        font-size:18px;
+        color:grey;
+    }
+    .logo_line{
+   width:30px;
+   height:2px;
+   background-color:red;
+    }
+    .past_summit{
+        width:100%;
+        height:100%;
+        
+    }
+    .past_summits{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        padding:40px;
+        gap:30px;
+    }
+    .logo_box{
+       border:solid grey;
+       padding:40px;
+       width:100%;
+    }
+    .about_help{
+        font-family: 'Poppins', sans-serif;
+        font-weight:600;
+        color:grey;
+        font-size:19px;
+        margin-top:70px;
+        
+    }
+    .email{
+        font-family: 'Poppins', sans-serif;
+        font-weight:600;
+        color:grey;
+        font-size:19px;
+        
+        font-weight:700;
+    }
+    .email_line{
+        width:57%;
+        background-color:white;
+       
+        height:1px;
+        
+    }
+    
+ul{
+    list-style-type:none;
+   display:flex;
+   flex-direction:column;
+   gap:30px;
+}
+
+
+
+.nav_links>a {
+    text-decoration:none;
+    color:white;
+    font-size:18px;
+    font-family:'Poppins',sans-serif;
+    font-weight:500;
+}
+
+    
+.nav_links>button>a.graphql{
+    color:red ;
+    text-decoration:none;
+   
+    font-family:Poppins,"sans-serif";
+    font-weight:500;
+  
+}
+.nav_links>button>a.graphql:hover{
+    color:blue ;
+    
+  
+}
+.nav_links>button{
+    border:solid red;
+    padding:12px;
+    background-color:white;
+}
+
+
+.nav_links>a.about{
+    color:red;
+}
+    .mobile_menu{
+  
+  position:fixed;
+ background-color:#D9F9F5;
+  backdrop-filter:blur(6px);
+  top:0;
+  width:100%;
+  height:100%;
+  display:none;
+  flex-direction:column;
+  gap:50px;
+ padding:40px;
+    }
+    .close{
+        width:15px;
+        height:15px;
+       align-self:flex-end;
+    }
+    .close:hover{
+        cursor:pointer;
+    }
+
 
 .socialmedia{
     display:none;
@@ -290,8 +517,10 @@ padding:30px;
 }
 
 .hamb{
-    width:90px;
-    height:40px;
+    width:45px;
+    height:30px;
+   margin-left:20px;
+   
 }
 
 
