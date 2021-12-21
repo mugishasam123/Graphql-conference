@@ -137,15 +137,15 @@ body {
     font-weight: 500;
   }
 
-  .nav_links > button > a.graphql {
+  .nav_links > .graphql {
     color: red;
-    text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
   }
 
-  .nav_links > button > a.graphql:hover {
-    color: blue;
+  .nav_links > .graphql:hover {
+    color: white;
+    background-color: red;
   }
 
   .nav_links > button {
@@ -507,22 +507,22 @@ body {
     font-weight: 500;
   }
 
-  .nav_links > button > a.graphql {
+  .nav_links > .graphql {
     color: red;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-  }
-
-  .nav_links > button > a.graphql:hover {
-    color: blue;
-  }
-
-  .nav_links > button {
     border: solid red;
     padding: 12px;
     background-color: white;
   }
+
+  .nav_links > .graphql:hover {
+    color: white;
+    background-color: red;
+  }
+
+
 
   .nav_links > a.about {
     color: red;
