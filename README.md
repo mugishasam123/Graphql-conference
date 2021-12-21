@@ -25,7 +25,7 @@ This is capstone project done after first module at microverse where you assess 
 
 [Live Demo Link](https://mugishasam123.github.io/first-capstone-project/)
 
-[Video description](https://mugishasam123.github.io/first-capstone-project/)
+[Video description](https://www.loom.com/share/b11c45f6965f498488c9e13ca1297abd)
 
 ## Getting Started
 
