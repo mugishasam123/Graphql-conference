@@ -39,7 +39,7 @@ To get a local copy up and running follow these simple example steps.
 
 - git
 -  vs code or your preferred
--  web browser`
+-  web browser
 
 
 
