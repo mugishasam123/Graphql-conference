@@ -1,12 +1,5 @@
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Crete+Round&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300;1,700&family=Lato:ital,wght@1,200;1,700&display=swap');
 
 body {
   overflow-x: hidden;
@@ -81,7 +74,7 @@ body {
   .logo_line {
     width: 30px;
     height: 2px;
-    background-color: red;
+    background-color: #ec5242;
   }
 
   .past_summits {
@@ -103,10 +96,10 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-color: #454141;
+    background-color: #272a31;
     padding-right: 170px;
     gap: 12px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 400;
   }
 
@@ -133,29 +126,29 @@ body {
     text-decoration: none;
     color: #3f3b3a;
     font-size: 18px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 500;
   }
 
   .nav_links > .graphql {
-    color: red;
-    font-family: 'Poppins', sans-serif;
+    color: #ec5242;
+    font-family: 'Lato', sans-serif;
     font-weight: 500;
   }
 
   .nav_links > .graphql:hover {
     color: white;
-    background-color: red;
+    background-color: #ec5242;
   }
 
   .nav_links > button {
-    border: solid red;
+    border: solid  #ec5242;
     padding: 12px;
     background-color: white;
   }
 
   .nav_links > a.about {
-    color: red;
+    color: #ec5242;
   }
 
   .mobile {
@@ -169,7 +162,7 @@ body {
   }
 
   .hello {
-    color: #fa3b2b;
+    color: #ec5242;
     font-size: 34px;
   }
 
@@ -178,32 +171,32 @@ body {
     padding: 15px;
     background-color: white;
     color: black;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
   }
 
   .description_title {
     font-size: 38px;
-    color: #fa3b2b;
+    color: #ec5242;
     font-weight: 600;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
   }
 
   .date_indicator1 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 600;
     color: grey;
     font-size: 30px;
   }
 
   .date_indicator2 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 600;
     color: grey;
     font-size: 19px;
   }
 
   .about_help {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 600;
     color: grey;
     font-size: 19px;
@@ -212,7 +205,7 @@ body {
   }
 
   .email {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
     color: grey;
     font-size: 19px;
     margin-left: 490px;
@@ -256,7 +249,7 @@ body {
   .main_line {
     width: 49px;
     height: 2px;
-    background-color: red;
+    background-color: #ec5242;
     margin-left: 62px;
   }
 
@@ -273,14 +266,14 @@ body {
   }
 
   .program_name {
-    color: #fa3b2b;
+    color: #ec5242;
   }
 
   .program_details {
     color: white;
   }
 
-  .featured_speakers {
+  .featu #EC5242_speakers {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -300,12 +293,12 @@ body {
   }
 
   .speaker_location {
-    color: #fa3b2b;
+    color: #ec5242;
     font-size: 19px;
   }
 
   .sponsors {
-    background-color: #404346;
+    background-color: #272a31;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -321,7 +314,7 @@ body {
   .partner_line {
     width: 49px;
     height: 2px;
-    background-color: red;
+    background-color: #ec5242;
     margin-left: 22px;
   }
 
@@ -336,7 +329,7 @@ body {
   }
 
   footer {
-    background-color: #e4dfe0;
+    background-color: white;
     display: flex;
     justify-content: space-around;
     padding: 30px;
@@ -350,7 +343,7 @@ body {
   .join {
     display: none;
     color: white;
-    background-color: #fa3b2b;
+    background-color: #ec5242;
     padding: 30px;
     width: 35%;
     border: none;
@@ -366,13 +359,13 @@ body {
   }
 
   .down {
-    color: red;
+    color: #ec5242;
   }
 
-  .featured_line {
+  .featu #EC5242_line {
     width: 49px;
     height: 2px;
-    background-color: red;
+    background-color: #ec5242;
     margin-left: 92px;
   }
 
@@ -454,7 +447,7 @@ body {
   .logo_line {
     width: 30px;
     height: 2px;
-    background-color: red;
+    background-color: #ec5242;
   }
 
   .past_summits {
@@ -472,7 +465,7 @@ body {
   }
 
   .about_help {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 600;
     color: grey;
     font-size: 19px;
@@ -480,7 +473,7 @@ body {
   }
 
   .email {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
     color: grey;
     font-size: 19px;
     font-weight: 700;
@@ -503,32 +496,32 @@ body {
     text-decoration: none;
     color: white;
     font-size: 18px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 500;
   }
 
   .nav_links > .graphql {
-    color: red;
+    color: #ec5242;
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 500;
-    border: solid red;
+    border: solid  #ec5242;
     padding: 12px;
     background-color: white;
   }
 
   .nav_links > .graphql:hover {
     color: white;
-    background-color: red;
+    background-color: #ec5242;
   }
 
   .nav_links > a.about {
-    color: red;
+    color: #ec5242;
   }
 
   .mobile_menu {
     position: fixed;
-    background-color: #d9f9f5;
+    background-color: #272a31;
     backdrop-filter: blur(6px);
     top: 0;
     width: 100%;
@@ -570,7 +563,7 @@ body {
   }
 
   .hello {
-    color: #fa3b2b;
+    color: #ec5242;
     font-size: 34px;
   }
 
@@ -579,25 +572,25 @@ body {
     padding: 15px;
     background-color: white;
     color: black;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
   }
 
   .description_title {
     font-size: 38px;
-    color: #fa3b2b;
+    color: #ec5242;
     font-weight: 600;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
   }
 
   .date_indicator1 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 600;
     color: grey;
     font-size: 30px;
   }
 
   .date_indicator2 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 600;
     color: grey;
     font-size: 19px;
@@ -633,7 +626,7 @@ body {
   .main_line {
     width: 49px;
     height: 2px;
-    background-color: red;
+    background-color: #ec5242;
     margin-left: 62px;
   }
 
@@ -644,14 +637,14 @@ body {
   }
 
   .program_name {
-    color: #fa3b2b;
+    color: #ec5242;
   }
 
   .program_details {
     color: white;
   }
 
-  .featured_speakers {
+  .featu #EC5242_speakers {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -670,12 +663,12 @@ body {
   }
 
   .speaker_location {
-    color: #fa3b2b;
+    color: #ec5242;
     font-size: 19px;
   }
 
   .sponsors {
-    background-color: #404346;
+    background-color: #272a31;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -691,7 +684,7 @@ body {
   .partner_line {
     width: 49px;
     height: 2px;
-    background-color: red;
+    background-color: #ec5242;
     margin-left: 22px;
   }
 
@@ -702,7 +695,7 @@ body {
   }
 
   footer {
-    background-color: #e4dfe0;
+    background-color: white;
     display: flex;
     justify-content: space-around;
     gap: 30px;
@@ -717,7 +710,7 @@ body {
 
   .join {
     color: white;
-    background-color: #fa3b2b;
+    background-color: #ec5242;
     padding: 20px;
     width: 100%;
     border: none;
@@ -732,13 +725,13 @@ body {
   }
 
   .down {
-    color: red;
+    color: #ec5242;
   }
 
-  .featured_line {
+  .featu #EC5242_line {
     width: 49px;
     height: 2px;
-    background-color: red;
+    background-color: #ec5242;
     margin-left: 92px;
   }
 }
