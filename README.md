@@ -30,17 +30,17 @@ This is capstone project done after first module at microverse where you assess 
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
-
+```
 -  go to your git terminal
 - type git clone `https://github.com/mugishasam123/first-capstone-project.git`
-- Run index.html in your web browser.
+- Run index.html in your web browser.```
 
 ### Prerequisites
-
+```
 - git
 -  vs code or your preferred
 -  web browser
-
+```
 
 
 
