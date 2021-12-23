@@ -46,7 +46,7 @@ body {
   }
 
   .program:hover {
-    border: solid white;
+    outline: solid white;
     cursor: pointer;
   }
 
@@ -420,7 +420,7 @@ body {
   }
 
   .program:hover {
-    border: solid white;
+    outline: solid white;
     cursor: pointer;
   }
 
