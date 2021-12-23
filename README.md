@@ -43,15 +43,13 @@ To get a local copy up and running follow these simple example steps.
 -  web browser
 ```
 
-
-
 ## Authors
 
-👤 **Author1**
+👤 **Mugisha Samuel**
 
-- GitHub: [@githubhandle](https://github.com/mugishasam123)
-- Twitter: [@twitterhandle](https://twitter.com/mugishasamuel42/)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mugisha-samuel-55a905208/)
+- GitHub: [@mugisha samuel](https://github.com/mugishasam123)
+- Twitter: [@mugisha samuel](https://twitter.com/mugishasamuel42/)
+- LinkedIn: [@mugisha samuel](https://www.linkedin.com/in/mugisha-samuel-55a905208/)
 
 
 ## 🤝 Contributing
@@ -66,7 +64,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- This design is similar to the one created by Cindy Shin .
+- This design was inspired  by [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
 - Microverse
 
 
