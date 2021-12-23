@@ -607,7 +607,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 40px;
-    padding: 60px;
+    padding: 130px;
     background-image: url('../images/programs/bg.png');
     background-repeat: repeat;
     background-position: center;
@@ -704,7 +704,7 @@ body {
     display: flex;
     justify-content: space-around;
     gap: 30px;
-    padding: 20px;
+    padding: 50px;
   }
 
   .rights {
@@ -716,8 +716,8 @@ body {
   .join {
     color: white;
     background-color: #ec5242;
-    padding: 20px;
-    width: 100%;
+    padding: 10px;
+    width: 130%;
     border: none;
     font-size: 30px;
   }
