@@ -728,6 +728,7 @@ body {
     padding: 20px;
     border: grey;
     font-weight: 400;
+    display:none;
   }
 
   .down {
