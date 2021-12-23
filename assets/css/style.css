@@ -184,21 +184,21 @@ body {
   .date_indicator1 {
     font-family: 'Lato', sans-serif;
     font-weight: 600;
-    color: grey;
+    color: white;
     font-size: 30px;
   }
 
   .date_indicator2 {
     font-family: 'Lato', sans-serif;
     font-weight: 600;
-    color: grey;
+    color: white;
     font-size: 19px;
   }
 
   .about_help {
     font-family: 'Lato', sans-serif;
     font-weight: 600;
-    color: grey;
+    color: white;
     font-size: 19px;
     margin-top: 70px;
     margin-left: 300px;
@@ -206,14 +206,14 @@ body {
 
   .email {
     font-family: 'Lato', sans-serif;
-    color: grey;
+    color: white;
     font-size: 19px;
     margin-left: 490px;
     font-weight: 700;
   }
 
   .email_line {
-    width: 21%;
+    width: 16.8%;
     background-color: white;
     height: 1px;
     margin-left: 490px;
@@ -273,18 +273,19 @@ body {
     color: white;
   }
 
-  .featu #EC5242_speakers {
+  .featured_speakers {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 50px;
-    padding: 70px;
+    padding: 90px;
   }
 
   .speakers {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 60px;
   }
 
   .speaker {
@@ -319,8 +320,8 @@ body {
   }
 
   .sponso {
-    width: 120px;
-    height: 50px;
+    width: 100px;
+    height: 30px;
   }
 
   .sponsor {
@@ -336,7 +337,7 @@ body {
   }
 
   .rights {
-    color: grey;
+    color: black;
     padding-top: 30px;
   }
 
@@ -362,7 +363,7 @@ body {
     color: #ec5242;
   }
 
-  .featu #EC5242_line {
+  .featured_line {
     width: 49px;
     height: 2px;
     background-color: #ec5242;
@@ -396,8 +397,8 @@ body {
   }
 
   .sponso {
-    width: 120px;
-    height: 50px;
+    width: 100px;
+    height: 30px;
   }
 
   .past_summit {
@@ -467,20 +468,20 @@ body {
   .about_help {
     font-family: 'Lato', sans-serif;
     font-weight: 600;
-    color: grey;
+    color: white;
     font-size: 19px;
     margin-top: 70px;
   }
 
   .email {
     font-family: 'Lato', sans-serif;
-    color: grey;
+    color: white;
     font-size: 19px;
     font-weight: 700;
   }
 
   .email_line {
-    width: 57%;
+    width: 45%;
     background-color: white;
     height: 1px;
   }
@@ -556,6 +557,10 @@ body {
     margin-left: 20px;
   }
 
+  .hamb:hover {
+    cursor: pointer;
+  }
+
   .intro {
     width: 100%;
     background-image: url('../images/event.jpg');
@@ -585,14 +590,14 @@ body {
   .date_indicator1 {
     font-family: 'Lato', sans-serif;
     font-weight: 600;
-    color: grey;
+    color: white;
     font-size: 30px;
   }
 
   .date_indicator2 {
     font-family: 'Lato', sans-serif;
     font-weight: 600;
-    color: grey;
+    color: white;
     font-size: 19px;
   }
 
@@ -644,7 +649,7 @@ body {
     color: white;
   }
 
-  .featu #EC5242_speakers {
+  .featured_speakers {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -703,7 +708,7 @@ body {
   }
 
   .rights {
-    color: grey;
+    color: black;
     font-size: 22px;
     width: 60%;
   }
@@ -728,7 +733,7 @@ body {
     color: #ec5242;
   }
 
-  .featu #EC5242_line {
+  .featured_line {
     width: 49px;
     height: 2px;
     background-color: #ec5242;
