@@ -1,6 +1,6 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+![](https://img.shields.io/badge/Conference-blueviolet)
 
-# web conference capstone
+# GraphQl web conference 
 
 > This is a demo conference website project that serves the purpose of facilitating Graphql users , with an about page to give more information about the conference.
 
